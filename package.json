@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "example.spec.js",
-  "scripts": {},
+  "scripts": {
+    "api": "npx playwright test --grep @API"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
