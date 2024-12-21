@@ -760,7 +760,7 @@ test.describe.only("API challenge", () => {
 
 
         // Подставляем newToken в newPayload
-        newPayload["x-Challenger"] = newToken;
+        newPayload["xChallenger"] = newToken;
 
         let response = await request.put(`${URL}challenger/${newToken}`, {
             headers: {
